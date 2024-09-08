@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+execute:
+  freeze: auto
+
+format:
+  html:
+    page-layout: full
+    date-format: "MM YYYY"
+    css: styles.css
+    theme:
+      - darkly
+      - styles.scss
+
+website:
+  title: "Yannick Vinkesteijn"
+  site-url: "https://yannickvinkesteijn.com"
+
+
+  # Navbar configuration for main page navigation
+  navbar:
+    title: false
+    logo: images/logo_tri.svg
+    collapse-below: sm
+    search: false
+    right:
+      - icon: envelope
+        href: mailto:yannick@vinkesteijn.io
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yvinkesteijn
+      - icon: github
+        href: https://github.com/yannick-vinkesteijn
+
+  # Sidebar configuration for personal info and picture
+  # sidebar:
+  #   style: docked  
+  #   collapse-level: 1
+  #   contents:
+  #     - text: "About Me"
+  #       href: /
+  #     - text: "Projects"
+  #       href: pages/projects.qmd
+  #     - text: "Blog"
+  #       href: pages/blogs.qmd
+  #     - text: "Contact"
+  #       href: pages/contact.qmd
+
+
+  page-footer:
+    center: |
+      <br>
+      Copyright &copy; 2024 Yannick Vinkesteijn<br>
+      This website was created with 
+      [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)
