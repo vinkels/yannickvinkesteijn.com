@@ -6,7 +6,6 @@ execute:
 
 format:
   html:
-    favicon: images/logo_tri_round.png
     page-layout: full
     date-format: "MM YYYY"
     css: styles.css  # Reference your compiled CSS file
@@ -15,6 +14,7 @@ format:
       - styles.scss
 
 website:
+  favicon: images/favicon.ico
   title: "Yannick Vinkesteijn"
   site-url: "https://yannickvinkesteijn.com"
 
