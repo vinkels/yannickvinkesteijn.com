@@ -6,11 +6,13 @@ execute:
 
 format:
   html:
-    favicon: images/favicon.ico
+    favicon: images/logo_tri_round.png
     page-layout: full
     date-format: "MM YYYY"
     css: styles.css  # Reference your compiled CSS file
-    theme: darkly  # Reference theme directly, without SCSS
+    theme:
+      - darkly
+      - styles.scss
 
 website:
   title: "Yannick Vinkesteijn"
@@ -19,7 +21,7 @@ website:
   # Navbar configuration for main page navigation
   navbar:
     title: false
-    logo: images/logo_tri.svg
+    logo: images/logo_tri_round.png
     collapse-below: sm
     search: false
     right:
