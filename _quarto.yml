@@ -9,15 +9,12 @@ format:
     favicon: images/favicon.ico
     page-layout: full
     date-format: "MM YYYY"
-    css: styles.css
-    theme:
-      - darkly
-      - styles.scss
+    css: styles.css  # Reference your compiled CSS file
+    theme: darkly  # Reference theme directly, without SCSS
 
 website:
   title: "Yannick Vinkesteijn"
   site-url: "https://yannickvinkesteijn.com"
-
 
   # Navbar configuration for main page navigation
   navbar:
@@ -32,21 +29,6 @@ website:
         href: https://www.linkedin.com/in/yvinkesteijn
       - icon: github
         href: https://github.com/yannick-vinkesteijn
-
-  # Sidebar configuration for personal info and picture
-  # sidebar:
-  #   style: docked  
-  #   collapse-level: 1
-  #   contents:
-  #     - text: "About Me"
-  #       href: /
-  #     - text: "Projects"
-  #       href: pages/projects.qmd
-  #     - text: "Blog"
-  #       href: pages/blogs.qmd
-  #     - text: "Contact"
-  #       href: pages/contact.qmd
-
 
   page-footer:
     center: |
