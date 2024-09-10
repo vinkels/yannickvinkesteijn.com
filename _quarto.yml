@@ -6,6 +6,7 @@ execute:
 
 format:
   html:
+    favicon: images/favicon.ico
     page-layout: full
     date-format: "MM YYYY"
     css: styles.css
