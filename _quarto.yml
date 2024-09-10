@@ -14,7 +14,7 @@ format:
       - styles.scss
 
 website:
-  favicon: images/favicon.ico
+  favicon: images/logo_tri_round.png
   title: "Yannick Vinkesteijn"
   site-url: "https://yannickvinkesteijn.com"
 
